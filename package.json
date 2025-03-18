@@ -1,0 +1,26 @@
+{
+    "name": "mcp-perplexity-api",
+    "version": "1.0.0",
+    "description": "MCP server for integrating Perplexity search with Claude",
+    "type": "module",
+    "main": "build/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node build/index.js",
+        "dev": "tsc -w"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.7.0",
+        "node-fetch": "^3.3.2",
+        "zod": "^3.24.2"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.10",
+        "typescript": "^5.8.2"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
